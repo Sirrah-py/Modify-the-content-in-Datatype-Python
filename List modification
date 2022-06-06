@@ -1,0 +1,21 @@
+#Creating the simple list
+list = ["king","queen"]
+print(list)
+#Add the element in the list at the end
+list.append("prince")
+print(list)
+#Insert the element in the list where we want with the index number
+list.insert(0,"joker")
+print(list)
+#Reverse the order of the list
+list.reverse()
+print(list)
+#Remove the elements with the element sting found on list 
+list.remove("joker")
+print(list)
+#Remove the elements with the index number
+list.pop(0)
+print(list)
+#Replace the element in the list
+list[0] = "prince"
+print(list)
